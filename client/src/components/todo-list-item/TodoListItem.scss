@@ -1,0 +1,16 @@
+.TodoListItem{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.05) 0 10px 5px, rgba(0,0,0,0.05) 0 0 0 1px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+
+    .title-container{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+}

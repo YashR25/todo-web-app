@@ -1,0 +1,45 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal{
+        width: 500px;
+        background-color: rgba(255,255,255);
+        padding: 40px;
+        border-radius: 50px;
+        box-shadow: rgba(0,0,0,0.05) 0 6px 24px, rgba(0,0,0,0.05) 0 0 0 1px;
+
+        form{
+            display: flex;
+            flex-direction: column;
+
+            
+
+            label{
+                font-size: 13px;
+            }
+        }
+
+        .form-title-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .button{
+                border: none;
+                background-color: transparent;
+            }
+
+            .button:active{
+                color: rgba(255,50,50);
+            }
+        }
+    }
+}

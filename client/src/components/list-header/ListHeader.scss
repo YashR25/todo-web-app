@@ -1,0 +1,27 @@
+
+
+    .list-header{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: space-between;
+
+            .add-note{
+                border: 1px solid black;
+            }
+
+            .add-note:hover{
+                background-color: rgba(0, 90, 0, 0.26);
+            }
+
+            .sign-out{
+                border: 1px solid red;
+                background-color: rgba(255, 0, 0, 0.747);
+                color: white;
+                font-weight: bold;
+            }
+
+            .sign-out:hover{
+                background-color: rgba(200, 0, 0, 0.800);
+            }
+        
+    }
